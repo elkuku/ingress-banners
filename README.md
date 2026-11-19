@@ -3,7 +3,8 @@
 A page of the Ingress mission banners I have done: my mission medals from Ingress, matched with
 [Bannergress](https://bannergress.com), with a map of where each banner starts.
 
-This repository is made and filled by the **Ingress Banners** app — there is nothing to edit by hand.
+This repository (`ingress-banners`) is made and filled by the
+[Ingress Banners app](https://github.com/elkuku/ingress-banners-android) — there is nothing to edit by hand.
 
 ## How it works
 
@@ -17,7 +18,7 @@ This repository is made and filled by the **Ingress Banners** app — there is n
    list by picture and publishes the page. Medals it can't match for sure are marked **To check**:
    pick the banner in the app (saved in `corrections.json`).
 
-The page is at `https://<your GitHub name>.github.io/<this repository>/`.
+The page is at `https://<your GitHub name>.github.io/ingress-banners/`.
 
 **Privacy:** the page is public and shows on a map where you did banners. Delete the repository to
 remove it.
@@ -33,4 +34,4 @@ remove it.
 | `corrections.json` | Medals you matched by hand in the app |
 | `notes.json` | Optional notes per banner (Bannergress id → text) |
 
-The build itself is in [elkuku/ingress-banners](https://github.com/elkuku/ingress-banners).
+The build itself is in [elkuku/ingress-banners-tool](https://github.com/elkuku/ingress-banners-tool).

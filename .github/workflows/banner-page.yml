@@ -11,4 +11,4 @@ permissions:
   id-token: write
 jobs:
   page:
-    uses: elkuku/ingress-banners/.github/workflows/build-page.yml@v1
+    uses: elkuku/ingress-banners-tool/.github/workflows/build-page.yml@v1
