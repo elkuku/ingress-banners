@@ -1,0 +1,14 @@
+# Builds the banner page whenever the app uploads screenshots, a done list or corrections.
+name: Banner page
+on:
+  push:
+    branches: [main]
+    paths: ['inbox/**', 'done.json', 'corrections.json', 'config.json', 'notes.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  page:
+    uses: elkuku/ingress-banners/.github/workflows/build-page.yml@v1
