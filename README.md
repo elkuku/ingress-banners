@@ -4,12 +4,12 @@ A page of the Ingress mission banners I have done: my mission medals from Ingres
 [Bannergress](https://bannergress.com), with a map of where each banner starts.
 
 This repository (`ingress-banners`) is made and filled by the
-[Ingress Banners app](https://github.com/elkuku/ingress-banners-android) — there is nothing to edit by hand.
+[KMyBanners app](https://github.com/elkuku/KMyBanners) — there is nothing to edit by hand.
 
 ## How it works
 
 1. In the app, sign in with GitHub: it creates this repository from
-   [ingress-banners-template](https://github.com/elkuku/ingress-banners-template) and turns on GitHub Pages.
+   [KMyBanners-template](https://github.com/elkuku/KMyBanners-template) and turns on GitHub Pages.
 2. Sign in to Bannergress in the app: it saves your done list here (`done.json`).
 3. In Ingress, open your agent profile, tap the arrow next to the mission medals and take screenshots
    while you scroll down (about half a screen each, wait until the pictures have loaded). Share them
@@ -34,4 +34,4 @@ remove it.
 | `corrections.json` | Medals you matched by hand in the app |
 | `notes.json` | Optional notes per banner (Bannergress id → text) |
 
-The build itself is in [elkuku/ingress-banners-tool](https://github.com/elkuku/ingress-banners-tool).
+The build itself is in [elkuku/KMyBanners-tool](https://github.com/elkuku/KMyBanners-tool).
